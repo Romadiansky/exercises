@@ -32,7 +32,7 @@ function hourglassSum(arr) {
     const maxStartY = maxY - 2;
     const maxStartX = maxX - 2;
 
-    let biggestGlass = 0;
+    let biggestGlass = Number.NEGATIVE_INFINITY;
     let thisGlass;
 
     for (let y = 0; y < maxStartY; y++) {
